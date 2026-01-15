@@ -103,6 +103,83 @@
                             <a href="games.php" class="view-btn">View</a>
                         </div>
                     </div>
+                    <div class="game-card">
+                        <img src="assets/images/farcry-6.webp" alt="Farcry 6" loading="lazy">
+                        <div class="game-info">
+                            <h3 class="game-title">Farcry 6</h3>
+                            <p class="game-genre">Action | SinglePlayer | MultiPlayer</p>
+                        </div>
+                        <div class="game-footer">
+                            <span class="game-price">$35.99</span>
+                            <a href="games.php" class="view-btn">View</a>
+                        </div>
+                    </div>
+                    <div class="game-card">
+                        <img src="assets/images/ac-shadows.webp" alt="Assassin's Creed Shadows" loading="lazy">
+                        <div class="game-info">
+                            <h3 class="game-title">Assassin's Creed Shadows</h3>
+                            <p class="game-genre">Action | RPG | Parkour | SinglePlayer | MultiPlayer</p>
+                        </div>
+                        <div class="game-footer">
+                            <span class="game-price">$29.99</span>
+                            <a href="games.php" class="view-btn">View</a>
+                        </div>
+                    </div>
+                     <div class="game-card">
+                        <img src="assets/images/ac-mirage.webp" alt="Assassin's Creed Mirage" loading="lazy">
+                        <div class="game-info">
+                            <h3 class="game-title">Assassin's Creed Mirage</h3>
+                            <p class="game-genre">Action | RPG | Parkour | SinglePlayer | MultiPlayer</p>
+                        </div>
+                        <div class="game-footer">
+                            <span class="game-price">$35.99</span>
+                            <a href="games.php" class="view-btn">View</a>
+                        </div>
+                    </div>
+                    <div class="game-card">
+                        <img src="assets/images/ac-3.webp" alt="Assassin's Creed 3" loading="lazy">
+                        <div class="game-info">
+                            <h3 class="game-title">Assassin's Creed 3</h3>
+                            <p class="game-genre">Action | RPG | Parkour | SinglePlayer | MultiPlayer</p>
+                        </div>
+                        <div class="game-footer">
+                            <span class="game-price">$40.99</span>
+                            <a href="games.php" class="view-btn">View</a>
+                        </div>
+                    </div>
+                    <div class="game-card">
+                        <img src="assets/images/pop.webp" alt="Prince Of Persia" loading="lazy">
+                        <div class="game-info">
+                            <h3 class="game-title">Prince Of Persia</h3>
+                            <p class="game-genre">Action | RPG | Parkour | Adventure | SinglePlayer</p>
+                        </div>
+                        <div class="game-footer">
+                            <span class="game-price">$10.99</span>
+                            <a href="games.php" class="view-btn">View</a>
+                        </div>
+                    </div>
+                    <div class="game-card">
+                        <img src="assets/images/pop-forgotten-sands.webp" alt="Prince Of Persia: The Forgotten Sands" loading="lazy">
+                        <div class="game-info">
+                            <h3 class="game-title">Prince Of Persia: The Forgotten Sands</h3>
+                            <p class="game-genre">Action | RPG | Parkour | Adventure | Stratergy | SinglePlayer</p>
+                        </div>
+                        <div class="game-footer">
+                            <span class="game-price">$20.99</span>
+                            <a href="games.php" class="view-btn">View</a>
+                        </div>
+                    </div>
+                    <div class="game-card">
+                        <img src="assets/images/pop-the-two-thrones.webp" alt="Prince Of Persia: The Two Thrones" loading="lazy">
+                        <div class="game-info">
+                            <h3 class="game-title">Prince Of Persia: The Two Thrones</h3>
+                            <p class="game-genre">Action | RPG | Parkour | Adventure | SinglePlayer</p>
+                        </div>
+                        <div class="game-footer">
+                            <span class="game-price">$25.99</span>
+                            <a href="games.php" class="view-btn">View</a>
+                        </div>
+                    </div>
                 </div>
             </section>
             <section class="categories">
