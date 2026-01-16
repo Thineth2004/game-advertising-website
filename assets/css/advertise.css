@@ -1,0 +1,58 @@
+.advertise-hero {
+    padding: 60px 40px;
+    background: linear-gradient(135deg, #111, #1e1e1e);
+    color: white;
+}
+
+.advertise-hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.advertise-hero p {
+    font-size: 18px;
+    color: #ccc;
+}
+
+.advertise-form {
+    padding: 60px 40px;
+    background: #0f0f0f;
+    color: white;
+}
+
+.advertise-form form {
+    max-width: 600px;
+    margin: auto;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: darkgrey;
+}
+
+.form-group input, .form-group select, .form-group textarea {
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background: #2e2e2e;
+    color: white;
+}
+
+.submit-btn {
+    margin-top: 20px;
+    padding: 14px;
+    width: 100%;
+    background: #ff4757;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}

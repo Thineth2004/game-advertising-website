@@ -13,7 +13,7 @@
             <nav>
                 <a href="index.php">Home</a>
                 <a href="games.php">Games</a>
-                <a href="submit.php">Advertise</a>
+                <a href="advertise.php">Advertise</a>
                 <a href="admin.php">Admin</a>
             </nav>
         </header>
@@ -34,7 +34,7 @@
                         </div>
                         <div class="game-footer">
                             <span class="game-price">$19.99</span>
-                            <a href="games.php" class="view-btn">View</a>
+                            <a href="games.php" class="btn">View</a>
                         </div>
                     </div>
                     <div class="game-card">
@@ -45,7 +45,7 @@
                         </div>
                         <div class="game-footer">
                             <span class="game-price">$24.99</span>
-                            <a href="games.php" class="view-btn">View</a>
+                            <a href="games.php" class="btn">View</a>
                         </div>
                     </div>
                     <div class="game-card">
@@ -56,7 +56,7 @@
                         </div>
                         <div class="game-footer">
                             <span class="game-price">$12.99</span>
-                            <a href="games.php" class="view-btn">View</a>
+                            <a href="games.php" class="btn">View</a>
                         </div>
                     </div>
                     <div class="game-card">
@@ -67,7 +67,7 @@
                         </div>
                         <div class="game-footer">
                             <span class="game-price">$35.99</span>
-                            <a href="games.php" class="view-btn">View</a>
+                            <a href="games.php" class="btn">View</a>
                         </div>
                     </div>
                     <div class="game-card">
@@ -78,7 +78,7 @@
                         </div>
                         <div class="game-footer">
                             <span class="game-price">$40.99</span>
-                            <a href="games.php" class="view-btn">View</a>
+                            <a href="games.php" class="btn">View</a>
                         </div>
                     </div>
                     <div class="game-card">
@@ -89,7 +89,7 @@
                         </div>
                         <div class="game-footer">
                             <span class="game-price">$35.99</span>
-                            <a href="games.php" class="view-btn">View</a>
+                            <a href="games.php" class="btn">View</a>
                         </div>
                     </div>
                     <div class="game-card">
@@ -100,7 +100,7 @@
                         </div>
                         <div class="game-footer">
                             <span class="game-price">$40.99</span>
-                            <a href="games.php" class="view-btn">View</a>
+                            <a href="games.php" class="btn">View</a>
                         </div>
                     </div>
                     <div class="game-card">
@@ -111,7 +111,7 @@
                         </div>
                         <div class="game-footer">
                             <span class="game-price">$35.99</span>
-                            <a href="games.php" class="view-btn">View</a>
+                            <a href="games.php" class="btn">View</a>
                         </div>
                     </div>
                     <div class="game-card">
@@ -122,7 +122,7 @@
                         </div>
                         <div class="game-footer">
                             <span class="game-price">$29.99</span>
-                            <a href="games.php" class="view-btn">View</a>
+                            <a href="games.php" class="btn">View</a>
                         </div>
                     </div>
                      <div class="game-card">
@@ -133,7 +133,7 @@
                         </div>
                         <div class="game-footer">
                             <span class="game-price">$35.99</span>
-                            <a href="games.php" class="view-btn">View</a>
+                            <a href="games.php" class="btn">View</a>
                         </div>
                     </div>
                     <div class="game-card">
@@ -144,7 +144,7 @@
                         </div>
                         <div class="game-footer">
                             <span class="game-price">$40.99</span>
-                            <a href="games.php" class="view-btn">View</a>
+                            <a href="games.php" class="btn">View</a>
                         </div>
                     </div>
                     <div class="game-card">
@@ -155,7 +155,7 @@
                         </div>
                         <div class="game-footer">
                             <span class="game-price">$10.99</span>
-                            <a href="games.php" class="view-btn">View</a>
+                            <a href="games.php" class="btn">View</a>
                         </div>
                     </div>
                     <div class="game-card">
@@ -166,7 +166,7 @@
                         </div>
                         <div class="game-footer">
                             <span class="game-price">$20.99</span>
-                            <a href="games.php" class="view-btn">View</a>
+                            <a href="games.php" class="btn">View</a>
                         </div>
                     </div>
                     <div class="game-card">
@@ -177,7 +177,7 @@
                         </div>
                         <div class="game-footer">
                             <span class="game-price">$25.99</span>
-                            <a href="games.php" class="view-btn">View</a>
+                            <a href="games.php" class="btn">View</a>
                         </div>
                     </div>
                 </div>
