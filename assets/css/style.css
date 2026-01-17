@@ -1,18 +1,3 @@
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 40px;
-    background: #111;
-    color: white;
-}
-
-.navbar a {
-    color: #ccc;
-    margin-left: 20px;
-    text-decoration: none;
-}
-
 .logo {
     font-size: 28px;
     font-weight: bold;
@@ -23,6 +8,10 @@
 .logo:hover {
     opacity: 0.8;
     cursor: pointer;
+}
+
+.featured-h2{
+    color:white;
 }
 
 .hero {

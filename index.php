@@ -4,19 +4,49 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/nav-style.css">
         <script rel="text/javascript" src="assets/js/script.js" defer></script>
         <title>Galaari | Welcome to the official Galaari website</title>
     </head>
     <body>
-        <header class="navbar">
-            <h1 class="logo">Galaari</h1>
-            <nav>
-                <a href="index.php">Home</a>
-                <a href="games.php">Games</a>
-                <a href="submit.php">Advertise</a>
-                <a href="admin.php">Admin</a>
-            </nav>
-        </header>
+	<header class="game-navbar">
+    		<div class="nav-container">
+        		<a href="index.php" class="nav-logo">
+           		 Galaa<span class="highlight">ri</span>
+        		</a>
+
+        	<div class="menu-toggle" id="mobile-menu">
+            		<span class="bar"></span>
+            		<span class="bar"></span>
+			<span class="bar"></span>
+        	</div>
+
+        	<nav class="nav-menu">
+            			<ul>
+                			<li><a href="index.php" class="nav-link active">Home</a></li>
+                			<li><a href="games.php" class="nav-link">Games</a></li>
+					<li><a href="submit.php" class="nav-link">Advertise</a></li>
+					<li><a href="admin.php" class="nav-link">Admin</a></li>
+                			<li><a href="about.php" class="nav-link">About Us</a></li>
+                			<li><a href="contact.php" class="nav-link">Contact</a></li>
+                			<li><a href="login.php" class="nav-link btn-login">Login</a></li>
+					<li><a href="register.php" class="nav-link btn-signup">Sing Up</a></li>
+            			</ul>
+        		</nav>
+   		 </div>
+	</header>
+	</header>
+
+	<script>
+    		const menuToggle = document.getElementById('mobile-menu');
+    		const navMenu = document.querySelector('.nav-menu');
+
+    		menuToggle.addEventListener('click', () => {
+        	menuToggle.classList.toggle('is-active');
+        	navMenu.classList.toggle('active');
+    		});
+	</script>
+	
         <main>
             <section class="hero">
                 <h2>Promote Your Game to the World</h2>
@@ -24,7 +54,7 @@
                 <a class="btn" href="submit.php">Advertise Your Game</a>   
             </section>
             <section class="featured">
-                <h2>Featured Games</h2>
+                <h2 class="featured-h2">Featured Games</h2>
                 <div class="game-grid">
                     <div class="game-card">
                         <img src="assets/images/tactical-ops-one.webp" alt="Tactical Ops" loading="lazy">
