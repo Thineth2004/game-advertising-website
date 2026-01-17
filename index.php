@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/nav-style.css">
+        <link rel="stylesheet" href="assets/css/video-background-style.css">
         <script rel="text/javascript" src="assets/js/script.js" defer></script>
         <title>Galaari | Welcome to the official Galaari website</title>
     </head>
@@ -49,6 +50,13 @@
 	
         <main>
             <section class="hero">
+		<div class="hero-video-bg">
+        		<video autoplay muted loop playsinline>
+            		<source src="assets/videos/game-clip.mp4" type="video/mp4">
+        		</video>
+        	<div class="video-overlay"></div>
+
+    		</div>
                 <h2>Promote Your Game to the World</h2>
                 <p>Discover, advertise, and explore the best indie and AAA games</p>
                 <a class="btn" href="submit.php">Advertise Your Game</a>   
