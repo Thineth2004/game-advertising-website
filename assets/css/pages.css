@@ -1,0 +1,131 @@
+
+body {
+    margin: 0; padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0a0a0a; color: #fff;
+    overflow-x: hidden;
+}
+
+
+.embers-container {
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    z-index: -1;
+    background: radial-gradient(circle at center, #1a0505 0%, #000000 100%);
+}
+
+
+.header {
+    position: fixed; top: 0; left: 0; width: 100%;
+    padding: 15px 50px;
+    background: rgba(0, 0, 0, 0.9);
+    border-bottom: 1px solid rgba(255, 59, 59, 0.3);
+    display: flex; justify-content: space-between; align-items: center;
+    z-index: 1000; box-sizing: border-box;
+}
+
+.logo { font-size: 2rem; font-weight: 800; color: #fff; text-decoration: none; letter-spacing: 2px; }
+.logo span { color: #ff3b3b; }
+
+.nav-links { display: flex; gap: 30px; }
+.nav-links a {
+    color: #ccc; text-decoration: none; font-weight: 500; text-transform: uppercase;
+    font-size: 0.9rem; letter-spacing: 1px; transition: 0.3s;
+}
+.nav-links a:hover, .nav-links a.active { color: #fff; border-bottom: 2px solid #ff3b3b; }
+
+.auth-buttons { display: flex; gap: 15px; }
+.btn-login {
+    color: #fff; text-decoration: none; padding: 8px 20px;
+    border: 1px solid rgba(255,255,255,0.3); border-radius: 4px;
+}
+.btn-signup {
+    background: #ff3b3b; color: #fff; text-decoration: none; padding: 8px 20px; border-radius: 4px; font-weight: bold;
+}
+
+
+.page-container {
+    min-height: 100vh;
+    display: flex; justify-content: center; align-items: center;
+    padding-top: 80px;
+}
+
+.content-box {
+    background: rgba(20, 20, 20, 0.85);
+    backdrop-filter: blur(10px);
+    border: 1px solid #333;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(255, 0, 0, 0.1);
+    max-width: 800px; width: 90%;
+    text-align: center;
+}
+
+
+.about-border { border-top: 4px solid #ff3b3b; }
+.contact-border { border-bottom: 4px solid #ff3b3b; max-width: 500px; }
+
+.content-box h1, .content-box h2 {
+    color: #ff3b3b; font-size: 2.5rem; margin-bottom: 20px; text-transform: uppercase;
+}
+.content-box h2 { font-size: 2rem; color: #fff; } 
+
+.content-box p { line-height: 1.8; font-size: 1.1rem; color: #ddd; margin-bottom: 20px; }
+
+
+.btn-action {
+    display: inline-block; padding: 12px 30px;
+    background: #ff3b3b; color: white; text-decoration: none;
+    font-weight: bold; border-radius: 50px; margin-top: 20px;
+    transition: 0.3s;
+}
+.btn-action:hover { background: #fff; color: #ff3b3b; }
+
+.form-group { margin-bottom: 20px; text-align: left; }
+.form-group label { display: block; margin-bottom: 8px; color: #ff3b3b; font-weight: bold; }
+.form-group input, .form-group textarea {
+    width: 100%; padding: 12px;
+    background: #111; border: 1px solid #444; color: #fff;
+    border-radius: 5px; box-sizing: border-box; font-family: inherit;
+}
+.form-group input:focus, .form-group textarea:focus {
+    border-color: #ff3b3b; outline: none;
+}
+.btn-submit {
+    width: 100%; padding: 15px;
+    background: linear-gradient(45deg, #cc0000, #ff3b3b);
+    color: white; border: none; border-radius: 5px;
+    font-size: 1.1rem; font-weight: bold; cursor: pointer; text-transform: uppercase;
+}
+.btn-submit:hover { transform: scale(1.02); box-shadow: 0 0 15px rgba(255, 59, 59, 0.5); }
+
+
+.message-overlay {
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.85); backdrop-filter: blur(5px);
+    display: flex; justify-content: center; align-items: center;
+    z-index: 9999; animation: fadeIn 0.3s ease-in-out;
+}
+.message-box {
+    background: linear-gradient(135deg, #1a1a1a 0%, #0a0a0a 100%);
+    border: 2px solid #ff3b3b; width: 400px; padding: 30px;
+    text-align: center; border-radius: 10px;
+    box-shadow: 0 0 30px rgba(255, 59, 59, 0.3);
+    animation: popUp 0.3s forwards;
+}
+.message-box h3 { color: #ff3b3b; text-transform: uppercase; border-bottom: 1px solid #333; padding-bottom: 15px; margin-bottom: 20px; }
+.message-box p { color: #ddd; line-height: 1.6; margin-bottom: 25px; }
+.btn-close-popup {
+    background: #ff3b3b; color: white; border: none; padding: 10px 30px;
+    font-weight: bold; cursor: pointer; border-radius: 5px;
+}
+.btn-close-popup:hover { background: #fff; color: #ff3b3b; }
+
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes popUp { from { transform: scale(0.8); } to { transform: scale(1); } }
+
+
+@media (max-width: 900px) {
+    .header { padding: 15px 20px; }
+    .nav-links { display: none; }
+    .logo { font-size: 1.5rem; }
+}
